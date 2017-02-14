@@ -1,0 +1,6 @@
+# Path to the parent folder in which the subfolders with the ESATAN output files reside. Subfolders must be named "Case_<case combination>"
+path = "MOVE_II_3_1/esatan/"
+# Threshold values above/below which temperatures should be disregarded. Values must be separated by commas.
+thresholds = -200,200
+# Specific temperature values to be disregarded (For example because they are known to be faulty). Values must be separated by commas.
+ignore = 0

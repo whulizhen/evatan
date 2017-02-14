@@ -1,0 +1,203 @@
+14/02/2017 04:10:03 PM Program started
+14/02/2017 04:10:03 PM Importing matplotlib
+14/02/2017 04:10:03 PM Importing PyQt5
+14/02/2017 04:10:03 PM Importing sys
+14/02/2017 04:10:03 PM Importing os
+14/02/2017 04:10:03 PM Importing numpy
+14/02/2017 04:10:03 PM UI version is 4.0
+14/02/2017 04:10:03 PM uiname is MainWindow
+14/02/2017 04:10:03 PM toplevel widget is QMainWindow
+14/02/2017 04:10:03 PM setting property geometry
+14/02/2017 04:10:03 PM setting property minimumSize
+14/02/2017 04:10:03 PM setting property windowTitle
+14/02/2017 04:10:03 PM push QMainWindow MainWindow
+14/02/2017 04:10:03 PM push QWidget centralwidget
+14/02/2017 04:10:03 PM push QVBoxLayout verticalLayout
+14/02/2017 04:10:03 PM push QWidget plotContainer
+14/02/2017 04:10:03 PM push QHBoxLayout horizontalLayout
+14/02/2017 04:10:03 PM setting property sizePolicy
+14/02/2017 04:10:03 PM setting property minimumSize
+14/02/2017 04:10:03 PM push QWidget xPlotContainer
+14/02/2017 04:10:03 PM push QVBoxLayout verticalLayout_2
+14/02/2017 04:10:03 PM setting property minimumSize
+14/02/2017 04:10:03 PM push QWidget xPlot
+14/02/2017 04:10:03 PM push QVBoxLayout xPlotLayout
+14/02/2017 04:10:03 PM pop layout QVBoxLayout xPlotLayout
+14/02/2017 04:10:03 PM pop widget QWidget xPlot
+14/02/2017 04:10:03 PM new topwidget self.xPlotContainer
+14/02/2017 04:10:03 PM setting property sizePolicy
+14/02/2017 04:10:03 PM setting property maximumSize
+14/02/2017 04:10:03 PM push QWidget plotToolbar
+14/02/2017 04:10:03 PM push QHBoxLayout horizontalLayout_3
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM push QPushButton buttonRestore
+14/02/2017 04:10:03 PM pop widget QPushButton buttonRestore
+14/02/2017 04:10:03 PM new topwidget self.plotToolbar
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM push QPushButton buttonZoom
+14/02/2017 04:10:03 PM pop widget QPushButton buttonZoom
+14/02/2017 04:10:03 PM new topwidget self.plotToolbar
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM push QPushButton buttonPan
+14/02/2017 04:10:03 PM pop widget QPushButton buttonPan
+14/02/2017 04:10:03 PM new topwidget self.plotToolbar
+14/02/2017 04:10:03 PM pop layout QHBoxLayout horizontalLayout_3
+14/02/2017 04:10:03 PM pop widget QWidget plotToolbar
+14/02/2017 04:10:03 PM new topwidget self.xPlotContainer
+14/02/2017 04:10:03 PM pop layout QVBoxLayout verticalLayout_2
+14/02/2017 04:10:03 PM pop widget QWidget xPlotContainer
+14/02/2017 04:10:03 PM new topwidget self.plotContainer
+14/02/2017 04:10:03 PM setting property sizePolicy
+14/02/2017 04:10:03 PM push QWidget tPlotContainer
+14/02/2017 04:10:03 PM push QVBoxLayout verticalLayout_5
+14/02/2017 04:10:03 PM setting property sizePolicy
+14/02/2017 04:10:03 PM setting property maximumSize
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM push QLabel label_3
+14/02/2017 04:10:03 PM pop widget QLabel label_3
+14/02/2017 04:10:03 PM new topwidget self.tPlotContainer
+14/02/2017 04:10:03 PM setting property minimumSize
+14/02/2017 04:10:03 PM push QTableWidget tempStatTable
+14/02/2017 04:10:03 PM pop widget QTableWidget tempStatTable
+14/02/2017 04:10:03 PM new topwidget self.tPlotContainer
+14/02/2017 04:10:03 PM setting property sizePolicy
+14/02/2017 04:10:03 PM setting property maximumSize
+14/02/2017 04:10:03 PM push QWidget xPlotControls
+14/02/2017 04:10:03 PM push QVBoxLayout verticalLayout_3
+14/02/2017 04:10:03 PM setting property maximumSize
+14/02/2017 04:10:03 PM setting property toolTip
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM push QLabel label
+14/02/2017 04:10:03 PM pop widget QLabel label
+14/02/2017 04:10:03 PM new topwidget self.xPlotControls
+14/02/2017 04:10:03 PM push QHBoxLayout horizontalLayout_4
+14/02/2017 04:10:03 PM setting property maximumSize
+14/02/2017 04:10:03 PM push QLineEdit caseEdit
+14/02/2017 04:10:03 PM pop widget QLineEdit caseEdit
+14/02/2017 04:10:03 PM new topwidget self.xPlotControls
+14/02/2017 04:10:03 PM setting property maximumSize
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM push QPushButton btnLoadFile
+14/02/2017 04:10:03 PM pop widget QPushButton btnLoadFile
+14/02/2017 04:10:03 PM new topwidget self.xPlotControls
+14/02/2017 04:10:03 PM pop layout QHBoxLayout horizontalLayout_4
+14/02/2017 04:10:03 PM pop layout QVBoxLayout verticalLayout_3
+14/02/2017 04:10:03 PM pop widget QWidget xPlotControls
+14/02/2017 04:10:03 PM new topwidget self.tPlotContainer
+14/02/2017 04:10:03 PM push QWidget tPlotControls
+14/02/2017 04:10:03 PM push QVBoxLayout verticalLayout_9
+14/02/2017 04:10:03 PM setting property toolTip
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM push QLabel label_2
+14/02/2017 04:10:03 PM pop widget QLabel label_2
+14/02/2017 04:10:03 PM new topwidget self.tPlotControls
+14/02/2017 04:10:03 PM setting property sizePolicy
+14/02/2017 04:10:03 PM setting property maximumSize
+14/02/2017 04:10:03 PM push QListWidget compSelection
+14/02/2017 04:10:03 PM pop widget QListWidget compSelection
+14/02/2017 04:10:03 PM new topwidget self.tPlotControls
+14/02/2017 04:10:03 PM setting property sizePolicy
+14/02/2017 04:10:03 PM setting property maximumSize
+14/02/2017 04:10:03 PM push QWidget xPlotControls_2
+14/02/2017 04:10:03 PM push QVBoxLayout verticalLayout_4
+14/02/2017 04:10:03 PM setting property maximumSize
+14/02/2017 04:10:03 PM setting property toolTip
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM push QLabel label_4
+14/02/2017 04:10:03 PM pop widget QLabel label_4
+14/02/2017 04:10:03 PM new topwidget self.xPlotControls_2
+14/02/2017 04:10:03 PM push QHBoxLayout horizontalLayout_2
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM push QPushButton buttonSaveFig
+14/02/2017 04:10:03 PM pop widget QPushButton buttonSaveFig
+14/02/2017 04:10:03 PM new topwidget self.xPlotControls_2
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM push QPushButton buttonSaveStats
+14/02/2017 04:10:03 PM pop widget QPushButton buttonSaveStats
+14/02/2017 04:10:03 PM new topwidget self.xPlotControls_2
+14/02/2017 04:10:03 PM pop layout QHBoxLayout horizontalLayout_2
+14/02/2017 04:10:03 PM pop layout QVBoxLayout verticalLayout_4
+14/02/2017 04:10:03 PM pop widget QWidget xPlotControls_2
+14/02/2017 04:10:03 PM new topwidget self.tPlotControls
+14/02/2017 04:10:03 PM pop layout QVBoxLayout verticalLayout_9
+14/02/2017 04:10:03 PM pop widget QWidget tPlotControls
+14/02/2017 04:10:03 PM new topwidget self.tPlotContainer
+14/02/2017 04:10:03 PM pop layout QVBoxLayout verticalLayout_5
+14/02/2017 04:10:03 PM pop widget QWidget tPlotContainer
+14/02/2017 04:10:03 PM new topwidget self.plotContainer
+14/02/2017 04:10:03 PM pop layout QHBoxLayout horizontalLayout
+14/02/2017 04:10:03 PM pop widget QWidget plotContainer
+14/02/2017 04:10:03 PM new topwidget self.centralwidget
+14/02/2017 04:10:03 PM pop layout QVBoxLayout verticalLayout
+14/02/2017 04:10:03 PM pop widget QWidget centralwidget
+14/02/2017 04:10:03 PM new topwidget MainWindow
+14/02/2017 04:10:03 PM setting property geometry
+14/02/2017 04:10:03 PM push QMenuBar menubar
+14/02/2017 04:10:03 PM setting property title
+14/02/2017 04:10:03 PM push QMenu menuFile
+14/02/2017 04:10:03 PM pop widget QMenu menuFile
+14/02/2017 04:10:03 PM new topwidget self.menubar
+14/02/2017 04:10:03 PM setting property title
+14/02/2017 04:10:03 PM push QMenu menuView
+14/02/2017 04:10:03 PM pop widget QMenu menuView
+14/02/2017 04:10:03 PM new topwidget self.menubar
+14/02/2017 04:10:03 PM setting property title
+14/02/2017 04:10:03 PM push QMenu menuEdit
+14/02/2017 04:10:03 PM pop widget QMenu menuEdit
+14/02/2017 04:10:03 PM new topwidget self.menubar
+14/02/2017 04:10:03 PM setting property title
+14/02/2017 04:10:03 PM push QMenu menuData
+14/02/2017 04:10:03 PM setting property title
+14/02/2017 04:10:03 PM push QMenu menuFiltering
+14/02/2017 04:10:03 PM pop widget QMenu menuFiltering
+14/02/2017 04:10:03 PM new topwidget self.menuData
+14/02/2017 04:10:03 PM pop widget QMenu menuData
+14/02/2017 04:10:03 PM new topwidget self.menubar
+14/02/2017 04:10:03 PM pop widget QMenuBar menubar
+14/02/2017 04:10:03 PM new topwidget MainWindow
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM setting property text
+14/02/2017 04:10:03 PM pop widget QMainWindow MainWindow
+14/02/2017 04:10:03 PM new topwidget None
+14/02/2017 04:10:03 PM add action menuFileSaveAs_2 to menuFile
+14/02/2017 04:10:03 PM add action menuQuit to menuFile
+14/02/2017 04:10:03 PM add action menuViewShowCaseOptions to menuView
+14/02/2017 04:10:03 PM add action menuFixZoom to menuView
+14/02/2017 04:10:03 PM add action menuChangeDir to menuEdit
+14/02/2017 04:10:03 PM add action menuThresholds to menuFiltering
+14/02/2017 04:10:03 PM add action menuIgnore to menuFiltering
+14/02/2017 04:10:03 PM add action menuFiltering to menuData
+14/02/2017 04:10:03 PM add action menuFile to menubar
+14/02/2017 04:10:03 PM add action menuEdit to menubar
+14/02/2017 04:10:03 PM add action menuView to menubar
+14/02/2017 04:10:03 PM add action menuData to menubar
+14/02/2017 04:10:03 PM Starting application
+
+14/02/2017 04:10:03 PM Initiating main window
+14/02/2017 04:10:03 PM Setting up UI
+14/02/2017 04:10:03 PM Trying to load config file.
+14/02/2017 04:10:03 PM Reading config file
+14/02/2017 04:10:03 PM Loaded path to ESATAN files from config file: MOVE_II_3_1/esatan/
+14/02/2017 04:10:03 PM Loaded threshold values from config file: [-200.0, 200.0]
+14/02/2017 04:10:03 PM Loaded ignore values from config file: [0.0]
